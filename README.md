@@ -1,15 +1,13 @@
-# individual-project-PriyankaCornelius
-individual-project-PriyankaCornelius created by GitHub Classroom
+# Inventory-Management-System
 
-Steps to run: 
-cd individual-project-PriyankaCornelius/BillingSystem/out/production/BillingSystem/com/company
-run command java BillingSystem.class
+## Abstract
 
-The system requires input files for
-1) inventory
-2)  order to be placed
-3)  card numbers
-in csv format
+The Inventory Management System is a java application that takes inventory list, customer order and payment method as input, verifies the order against available stock in the inventory, and calculates the bill.
+#### **Input files(in CSV format)**
+* **Inventory** contains a list of items in the stock, their respective Category (e.g. Dairy, Beverage, Bakery etc.), and the count of items permissible to buy from each category.
+* **Customer Order** contains a list of items and their required quantities.
+* **Card Numbers** is a list of all previous customers' card numbers.
+
 
 ### Design Patterns
 1) Factory Design Pattern
